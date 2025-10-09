@@ -1,0 +1,7 @@
+pink - a33175
+yellow - ff9c5a
+orange - f56a4a
+
+White/light grey - dadada
+Dark Grey - 4f4f4f
+Darker Grey (font) - 3c3c3c
