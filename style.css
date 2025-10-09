@@ -110,23 +110,23 @@ header {
 
 /* HERO TEXT */
 .hero_big_text {
-    max-width: 600px;
+    max-width: 680px;
     position: relative;
     top: 60px;
 
 }
 
 .hero_title {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 100;
-    line-height: 1.2;
+    line-height: 5.5rem;
    
 }
 
 .bold_hero_text {
-    font-weight: 700;
-    font-size: 5rem;
-    line-height: 1rem;
+    font-weight: 500;
+    font-size: 7rem;
+    line-height: 1.2rem;
 }
 
 .hero_description {
@@ -382,7 +382,7 @@ input::placeholder, textarea::placeholder {
     }
     
     .navbar{
-        visibility: none;
+        display: none;
 
     }
 
@@ -392,11 +392,12 @@ input::placeholder, textarea::placeholder {
 
     .hero_title {
         font-size: 2rem !important;
+        line-height: 2.3rem;
     }
 
     .bold_hero_text {
 
-        font-weight: 700;
+        font-weight: 500;
         font-size: 3rem !important;
     }
 
@@ -413,6 +414,10 @@ input::placeholder, textarea::placeholder {
         font-size: 0.8rem;
     }
 
+    .about_list_item {
+        padding: 0.5rem;
+    }
+
     input, textarea {
         width: 20rem;
     }
@@ -423,6 +428,10 @@ input::placeholder, textarea::placeholder {
 
     .contact_phone_number, .contact_email {
         font-size: 1.1rem;
+    }
+
+    .line {
+        display: none;
     }
     
 }
